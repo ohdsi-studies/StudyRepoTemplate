@@ -29,16 +29,16 @@ The information in the repository README file will be used to update the [list o
 
 Choose one of the following options:
 
-| Badge             | Description                          | Markdown code |
-| ----------------- | ------------------------------------ | ------------- |
-| <img src="https://img.shields.io/badge/Study%20Status-Repo%20Created-lightgray.svg" alt="Study Status: Repo Created"> | The study repository has just been created. Work has not yet commenced. | <button onclick="copyToClipboard('<img src=&quot;Study%20Status-Repo%20Created-lightgray.svg&quot; alt=&quot;Study Status: Repo Created&quot;>')">Copy to clipboard</button> |
-| <img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started"> | A first commit was made (to something else than the README file). Work has commenced. | <button onclick="copyToClipboard('<img src=&quot;https://img.shields.io/badge/Study%20Status-Started-blue.svg&quot; alt=&quot;Study Status: Started&quot;>')">Copy to clipboard</button> |
-| <img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized"> | The protocol and study code have been finalized. | <button onclick="copyToClipboard('<img src=&quot;https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg&quot; alt=&quot;Study Status: Design Finalized&quot;>')">Copy to clipboard</button> |
-| <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Avaialable"> | The study results are publicly available, for example in a paper or results explorer app. | <button onclick="copyToClipboard('<img src=&quot;https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg&quot; alt=&quot;Study Status: Results Avaialable&quot;>')">Copy to clipboard</button> |
-| <img src="https://img.shields.io/badge/Study%20Status-Complete-orange.svg" alt="Study Status: Complete"> | The study is complete, no further dissemination planned. | <button onclick="copyToClipboard('<img src=&quot;https://img.shields.io/badge/Study%20Status-Complete-orange.svg&quot; alt=&quot;Study Status: Completed&quot;>')">Copy to clipboard</button> |
-| <img src="https://img.shields.io/badge/Study%20Status-Suspended-red.svg" alt="Study Status: Suspended"> | The study has been suspended, and may or may not be continued at a later point in time. | <button onclick="copyToClipboard('<img src=&quot;https://img.shields.io/badge/Study%20Status-Suspended-red.svg&quot; alt=&quot;Study Status: Suspended&quot;>')">Copy to clipboard</button> |
+| Badge             | Description                          |
+| ----------------- | ------------------------------------ |
+| <img src="https://img.shields.io/badge/Study%20Status-Repo%20Created-lightgray.svg" alt="Study Status: Repo Created"> | The study repository has just been created. Work has not yet commenced. | 
+| <img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started"> | A first commit was made (to something else than the README file). Work has commenced. | 
+| <img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized"> | The protocol and study code have been finalized. | 
+| <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available"> | The study results are publicly available, for example in a paper or results explorer app. | 
+| <img src="https://img.shields.io/badge/Study%20Status-Complete-orange.svg" alt="Study Status: Complete"> | The study is complete, no further dissemination planned. | 
+| <img src="https://img.shields.io/badge/Study%20Status-Suspended-red.svg" alt="Study Status: Suspended"> | The study has been suspended, and may or may not be continued at a later point in time. | 
 
-Copy the relevant markdown code to your clipboard, and past it in your READM file, just below the study title.
+Copy the relevant markdown code from [this page](badgesMarkdownCode.md), and past it in your README file, just below the study title.
 
 ### Analytics Use Cases
 
@@ -57,10 +57,3 @@ Can be either:
 - `Methods Research` if the study explores a methodological question, for example an evaluation of various propensity score approaches. 
 - `Clinical Application` if the study aims to answer a clinically releveant question, for example 'Does drug A cause outcome B?'.
 
-<script>
-function copyToClipboard(value) {
-  element = $('<textarea>').appendTo('body').val(value).select();
-  document.execCommand('copy');
-  element.remove();
-}
-</script>
