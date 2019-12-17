@@ -7,6 +7,7 @@
 - Study type: **-**
 - Tags: **-**
 - Study lead: **-**
+- Study lead forums tag: **[[Lead tag]](https://forums.ohdsi.org/u/[Lead tag])**
 - Study start date: **-**
 - Study end date: **-**
 - Protocol: **-**

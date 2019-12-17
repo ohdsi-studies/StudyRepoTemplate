@@ -18,7 +18,8 @@ The information in the repository README file will be used to update the [list o
 | Analytics use case | One or more analytics use cases included in the study (in a comma-separated list). See [below](#analytics-use-cases) for valid options. |
 | Study type | The type of study. See [below](#study-types) for valid options. |
 | Tags | Zero, one, or more additional keywords that can be used to filter the list of studies. The list of tags is not restricted, but be conservative in making up new tags. For example: `EHDEN` to identify studies that are part of the [EHDEN project](https://www.ehden.eu/). |
-| Study lead | The name of the study lead. Contact details are not required, since the lead is assumed to monitor the repo issue tracker and can therefore be reached that way. |
+| Study lead | The name of the study lead.|
+| Study lead forums tag | The OHDSI forums tag of the study lead, which can be used to contact the lead. It is recommended to make this a hyperlink to lead's forums profile |
 | Study start date | When did work on the study commence? This date typically indicates when development of the protocol was initiated. |
 | Study end date | When was the study completed? This typicaly indicates when the analyses are completed and the results have been collected. | 
 | Protocol | A hyperlink to the protocol. The protocol is expected to be a document in the study repository itself. | 
