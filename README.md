@@ -20,8 +20,8 @@ The information in the repository README file will be used to update the [list o
 | Tags | Zero, one, or more additional keywords that can be used to filter the list of studies. The list of tags is not restricted, but be conservative in making up new tags. For example: `EHDEN` to identify studies that are part of the [EHDEN project](https://www.ehden.eu/). |
 | Study lead | The name of the study lead.|
 | Study lead forums tag | The OHDSI forums tag of the study lead, which can be used to contact the lead. It is recommended to make this a hyperlink to lead's forums profile |
-| Study start date | When did work on the study commence? This date typically indicates when development of the protocol was initiated. |
-| Study end date | When was the study completed? This typically indicates when the analyses are completed and the results have been collected. | 
+| Study start date | When did work on the study commence? This date typically indicates when development of the protocol was initiated. Format: [Month] [Day], [Year] (e.g. May 1, 2019)|
+| Study end date | When was the study completed? This typically indicates when the analyses were completed and the results have been collected. Do not enter future (planned) dates here. Format: [Month] [Day], [Year] (e.g. May 1, 2019)| 
 | Protocol | A hyperlink to the protocol. The protocol is expected to be a document in the study repository itself. | 
 | Publications | Zero, one or more hyperlinks to papers produced as part of the study (comma-separated). | 
 | Results explorer | A hyperlink to a web app (e.g. a Shiny app) where the results of the study can be explored. |
@@ -49,7 +49,7 @@ Choose one or more options from:
 - `Population-Level Estimation`, or
 - `Patient-Level Prediction` 
 
-See [the Data Aanlytics Use Cases chapter](https://ohdsi.github.io/TheBookOfOhdsi/DataAnalyticsUseCases.html) for more details.
+See [the Data Analytics Use Cases chapter](https://ohdsi.github.io/TheBookOfOhdsi/DataAnalyticsUseCases.html) for more details.
 
 ### Study types
 
