@@ -43,7 +43,7 @@ Copy the relevant markdown code from [this page](badgesMarkdownCode.md), and pas
 
 ### Analytics Use Cases
 
-Choose options from: 
+Choose one or more options from: 
 
 - `Characterization`
 - `Population-Level Estimation`, or
