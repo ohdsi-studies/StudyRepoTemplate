@@ -7,7 +7,11 @@ Badges Markdown Code
 
 ## Started
 
-`<img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started">`
+`<img src="https://img.shields.io/badge/Study%20Status-Started-blueviolet.svg" alt="Study Status: Started">`
+
+## Feasibility Established
+
+`<img src="https://img.shields.io/badge/Study%20Status-Feasibility%20Established-blue.svg" alt="Study Status: Feasibility Established">`
 
 ## Design Finalized
 
