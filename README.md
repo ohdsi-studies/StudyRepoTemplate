@@ -33,8 +33,7 @@ Choose one of the following options:
 | Badge             | Description                          |
 | ----------------- | ------------------------------------ |
 | <img src="https://img.shields.io/badge/Study%20Status-Repo%20Created-lightgray.svg" alt="Study Status: Repo Created"> | The study repository has just been created. Work has not yet commenced. | 
-| <img src="https://img.shields.io/badge/Study%20Status-Started-blueviolet.svg" alt="Study Status: Started"> | A first commit was made (to something else than the README file). Work has commenced. | 
-| <img src="https://img.shields.io/badge/Study%20Status-Feasibility%20Established-blue.svg" alt="Study Status: Feasibility Established"> | A feasibility assessment was performed with positive result. | 
+| <img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started"> | A first commit was made (to something else than the README file). Work has commenced. |
 | <img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized"> | The protocol and study code have been finalized. | 
 | <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available"> | The study results are publicly available, for example in a paper or results explorer app. | 
 | <img src="https://img.shields.io/badge/Study%20Status-Complete-orange.svg" alt="Study Status: Complete"> | The study is complete, no further dissemination planned. | 
