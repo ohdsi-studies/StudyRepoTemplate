@@ -14,9 +14,6 @@
 - Publications: **-**
 - Results explorer: **-**
 
-[Description]
+[Description (single paragraph)]
 
-License
-=======
-
-The [Study title] package is licensed under Apache License 2.0
+[You can add other text at this point]
