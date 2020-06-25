@@ -7,7 +7,7 @@ An OHDSI study repository is expected to have a README.md file where the header 
 
 When initiating a repository, please copy this file, rename it to 'README.md', and fill in the fields as appropriate.
 
-The information in the repository README file will be used to update the [list of OHDSI research studies](https://www.ohdsi.org/network-research-studies/), so it is important to fill in the template accurately, and keep it up-to-date.
+The information in the repository README file will be used to automatically update the [list of OHDSI research studies](https://data.ohdsi.org/OhdsiStudies/), so it is important to fill in the template accurately, and keep it up-to-date.
 
 ## Elements in the README template
 
