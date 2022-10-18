@@ -1,7 +1,0 @@
-install.packages("shinydashboard",dependencies=T)
-install.packages("plotly",dependencies=T)
-install.packages("shinycssloaders",dependencies=T)
-install.packages("shinyWidgets",dependencies=T)
-devtools::install_github("OHDSI/FeatureExtraction")
-devtools::install_github("OHDSI/PatientLevelPrediction")
-devtools::install_github("edwindj/ffbase", subdir="pkg")
