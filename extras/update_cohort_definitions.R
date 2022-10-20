@@ -7,7 +7,7 @@ library(ROhdsiWebApi)
 # atlasId = id of cohort definition on PIONEER Atlas
 
 # Pull in Cohort Definitions from Atlas -----------------------------------
-baseUrl="https://pioneer-atlas.thehyve.net/WebAPI"
+baseUrl="https://pioneer.hzdr.de/atlas/#/WebAPI"
 # get this token from an active ATLAS web session
 ROhdsiWebApi::setAuthHeader(baseUrl,"Bearer ey...")
 
