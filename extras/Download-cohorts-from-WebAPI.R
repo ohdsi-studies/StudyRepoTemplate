@@ -1,24 +1,22 @@
-# This file just contains some example maintenance code and shouldn't be run as is
+# This file contains cohort definitions update code and can't be run as is
+# One should get valid JWT Atlas session token and store it in bearer variable.
+# If script crashes try to update bearer variable with a new token.
 
 # ROhdsiWebApi version to install:
-# remotes::install_github("ohdsi/ROhdsiWebApi",ref="develop")
+# remotes::install_github("ohdsi/ROhdsiWebApi", ref="develop")
 
-baseUrl <- "https://pioneer-atlas.thehyve.net/WebAPI"
-ROhdsiWebApi::setAuthHeader(baseUrl,
-                            "Bearer ey...")  # get this token from an active ATLAS web session
-ROhdsiWebApi::insertCohortDefinitionInPackage(cohortId = 142, baseUrl = baseUrl)
+library(PioneerMetastaticTreatement)
 
+# get this token from an active ATLAS web session
+bearer <- "Bearer "
 
-# Alternatively, once you have obtained a token (see Authenticate.R), you can use a global config:
-# set_config(token = token) and then retrieve the cohort definition JSONs directly from WebAPI
+baseUrl <- "https://pioneer.hzdr.de/WebAPI"
+ROhdsiWebApi::setAuthHeader(baseUrl, bearer)
 
-getCohortDefinitionExpression <- function(definitionId, baseUrl) {
-  url <- paste(baseUrl, "cohortdefinition", definitionId, sep = "/")
-  json <- httr::GET(url)
-  httr::content(json)
+cohortGroups <- read.csv(file.path("inst/settings/CohortGroups.csv"))
+for(i in 1:nrow(cohortGroups)) {
+  ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = file.path('inst', cohortGroups$fileName[i]),
+                                                   baseUrl, packageName = getThisPackageName())
 }
 
-cohortPath <- "./inst/cohorts"
 
-cohort <- getCohortDefinitionExpression(definitionId = 141, baseUrl = Sys.getenv("baseUrl"))
-write(cohort$expression, file = file.path(cohortPath, "cohortname.json"))

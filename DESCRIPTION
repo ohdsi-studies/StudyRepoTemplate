@@ -50,5 +50,5 @@ URL: https://github.com/ohdsi-studies/PioneerWatchfulWaiting
 BugReports: https://github.com/ohdsi-studies/PioneerWatchfulWaiting/issues
 Encoding: UTF-8
 LazyData: TRUE
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 X-schema.org-isPartOf: https://ohdsi.org

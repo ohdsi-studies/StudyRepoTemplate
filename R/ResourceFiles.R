@@ -7,12 +7,12 @@ getCohortGroupNamesForDiagnostics <- function() {
   return(getCohortGroupsForDiagnostics()$cohortGroup)
 }
 
-getCohortGroupsForDiagnostics <- function () {
+getCohortGroupsForDiagnostics <- function() {
   resourceFile <- file.path(getPathToResource(), "CohortGroupsDiagnostics.csv")
   return(readCsv(resourceFile))
 }
 
-getCohortGroups <- function () {
+getCohortGroups <- function() {
   resourceFile <- file.path(getPathToResource(), "CohortGroups.csv")
   return(readCsv(resourceFile))
 }
@@ -97,8 +97,9 @@ getThisPackageVersion <- function() {
   return(packageVersion(getThisPackageName()))
 }
 
+#' @export
 getThisPackageName <- function() {
-  return("PioneerWatchfulWaiting")
+  return("PioneerMetastaticTreatement")
 }
 
 readCsv <- function(resourceFile) {
